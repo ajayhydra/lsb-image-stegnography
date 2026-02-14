@@ -1,1 +1,17 @@
-My passsword is yerripuku
+My passsword is alex@stego
+Key Features Added:
+1. Automatic Format Detection
+
+Detects AVI by RIFF signature
+Detects MOV/MP4 by ftyp or moov atoms
+Reports unsupported formats clearly
+2. Format-Specific Processing
+
+AVI: Uses existing movi list chunk parsing
+MOV/MP4: Extracts and uses mdat atom for data storage
+Different block counting strategies per format
+3. User Experience
+
+Prompts now say "AVI/MOV/MP4" instead of just "AVI"
+Clear feedback showing detected format
+Format-specific error messages
