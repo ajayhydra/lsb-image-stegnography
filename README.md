@@ -1,6 +1,6 @@
 # Video Steganography
 
-Simple C project to hide and extract text data inside BMP images and video (AVI / MOV / MP4) files using LSB steganography.
+C project to hide and extract text data inside BMP images and video (AVI / MOV / MP4) files using LSB steganography.
 
 ## Features
 
