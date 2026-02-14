@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -O2 -Iinclude
+CFLAGS = -Wall -Wextra -Iinclude
 LDFLAGS = 
 
 # Directories
